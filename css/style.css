@@ -1,0 +1,325 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.imgnav {
+  display: grid;
+  justify-items: center;
+  padding-bottom: 18px;
+}
+
+.sizelogo {
+  height: 50px;
+  width: 50px;
+}
+
+body {
+  background-color: rgba(81, 105, 128, 0.692);
+}
+
+header {
+  background-color: rgb(108, 108, 110);
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 10px;
+}
+header ul {
+  padding: 0rem;
+}
+header ul li {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 15px;
+  color: rgb(42, 42, 75);
+}
+header ul li a {
+  text-decoration: none;
+}
+
+.descripcion {
+  font-family: "Poppins", sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: 35px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  text-transform: uppercase;
+  color: rgb(45, 51, 45);
+  padding: 15px;
+  margin: 10px 35px 35px 35px;
+}
+
+.foto_byn {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.foto_byn1 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.foto_byn2 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(42, 42, 75);
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  margin: 5px;
+  font-weight: bold;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.subtitulo {
+  font-family: "Poppins", sans-serif;
+  word-spacing: 5px;
+  font-style: oblique;
+  color: rgb(42, 42, 75);
+  text-align: center;
+}
+
+.segundo-parrafo {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  margin: 50px;
+  align-items: center;
+  font-size: 25px;
+  word-spacing: 3px;
+  color: rgba(47, 57, 194, 0.685);
+  display: grid;
+}
+
+.contac {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mapa {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.espaciovids {
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
+.imagenes_index {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.movervids {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.row {
+  margin-top: 30px;
+  margin-right: 0px;
+  margin-bottom: 75px;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  display: flex;
+  color: rgb(42, 42, 75);
+}
+
+.imagenes_tamaños {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 10px;
+}
+
+.especies {
+  padding-top: 25px;
+  padding-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(83, 79, 71);
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(108, 108, 110);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.card {
+  background-color: rgb(108, 108, 110);
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.card-title {
+  font-size: 12px;
+}
+
+.card-text {
+  font-size: 10px;
+}
+
+.btn {
+  font-size: 10px;
+}
+
+@media (min-width: 480px) {
+  .sizelogo {
+    width: 85px;
+    height: 85px;
+  }
+  ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    font-size: 13px;
+  }
+  .descripcion {
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) {
+  .descripcion {
+    font-size: 17px;
+  }
+  .sizelogo {
+    width: 100px;
+    height: 100px;
+  }
+  ul {
+    font-size: 18px;
+  }
+  .descripcionn {
+    grid-area: descripcionn;
+  }
+  .foto_byn1 {
+    grid-area: foto_byn1;
+  }
+  .foto_byn2 {
+    grid-area: foto_byn2;
+  }
+  .nos {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "descripcionn descripcionn" "foto_byn1    foto_byn2";
+  }
+}
+@media (min-width: 1024px) {
+  .foto_byn1:hover {
+    transform: scale(1.2);
+  }
+  .foto_byn2:hover {
+    transform: scale(1.2);
+  }
+  .subtitulo {
+    grid-area: subtitulo;
+  }
+  .tam1 {
+    grid-area: tam1;
+    width: 300px;
+    height: 175px;
+  }
+  .tam2 {
+    grid-area: tam2;
+    width: 300px;
+    height: 175px;
+  }
+  .tam3 {
+    grid-area: tam3;
+    width: 300px;
+    height: 175px;
+  }
+  .acomodar-section {
+    padding-bottom: 15px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "subtitulo subtitulo subtitulo" "tam1      tam2      tam3";
+  }
+  .prods {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px;
+  }
+  .contac {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+  .mapa {
+    width: 280px;
+    height: 190px;
+  }
+  .movervids {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .arboles_precios {
+    height: 1600px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 1fr 4fr;
+    grid-template-rows: 25%;
+    justify-items: center;
+    padding: 25px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgba(84, 105, 92, 0.644);
+  }
+  .imagenes_tamaños {
+    width: 400px;
+    height: 300px;
+  }
+  .tam1:hover {
+    transform: scale(1.2);
+  }
+  .tam2:hover {
+    transform: scale(1.2);
+  }
+  .tam3:hover {
+    transform: scale(1.2);
+  }
+  .anim1:hover {
+    transform: scale(1.1);
+  }
+  .espaciovids:hover {
+    transform: scale(1.2);
+  }
+  li:hover {
+    transform: scale(1.2);
+  }
+}/*# sourceMappingURL=style.css.map */
