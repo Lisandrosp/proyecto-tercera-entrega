@@ -36,9 +36,13 @@ header ul li {
   align-items: center;
   flex-direction: column;
   margin-bottom: 15px;
-  color: rgb(42, 42, 75);
 }
 header ul li a {
+  text-decoration: none;
+  color: rgb(44, 46, 61);
+}
+
+.subr {
   text-decoration: none;
 }
 
@@ -146,7 +150,10 @@ h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   display: flex;
-  color: rgb(42, 42, 75);
+}
+
+.anim1 {
+  color: rgb(34, 35, 48);
 }
 
 .imagenes_tamaños {
