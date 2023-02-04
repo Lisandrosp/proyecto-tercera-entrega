@@ -6,13 +6,13 @@
 }
 
 main, section {
-  background-color: rgba(230, 230, 250, 0.349);
+  background-color: rgba(230, 230, 250, 0.548);
   margin-bottom: 80px;
 }
 
 body {
   background-image: url(https://fondosmil.com/fondo/26795.jpg);
-  color: #FFFFFF;
+  color: rgba(255, 255, 255, 0.337254902);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -118,19 +118,6 @@ h2 {
   margin-bottom: 90px;
 }
 
-.segundo-parrafo {
-  font-family: "Poppins", sans-serif;
-  text-align: center;
-  font-style: normal;
-  font-weight: bold;
-  margin: 50px;
-  align-items: center;
-  font-size: 25px;
-  word-spacing: 3px;
-  color: rgba(47, 57, 194, 0.685);
-  display: grid;
-}
-
 .contac {
   padding: 20px;
   display: flex;
@@ -199,13 +186,14 @@ footer {
 }
 
 .card {
-  background-color: rgba(108, 108, 110, 0.336);
+  background-color: rgba(108, 108, 110, 0.507);
   margin-bottom: 5px;
   align-items: center;
 }
 
 .card-title {
   font-size: 12px;
+  color: black;
 }
 
 .card-text {
